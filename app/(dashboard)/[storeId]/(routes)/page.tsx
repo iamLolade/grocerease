@@ -16,8 +16,8 @@ const DashboardPage: React.FC<DashboardPageProps> = async ({
   })
 
   return (
-    <div>
-      Active Store: {store?.name}
+    <div className='pt-6 px-24 text-xl'>
+      <span className='font-semibold'>Active Store:</span> {store?.name}
     </div>
   )
 }

@@ -21,7 +21,7 @@ const Navbar = async () => {
     return (
         <div className="border-b">
             <div className="flex h-16 items-center px-4">
-                <Image src='/ekaette-logo.png' alt='brandlogo' width={50} height={50} />
+                <Image src='/ekaette-logo.png' alt='brandlogo' width={80} height={80} />
                 <StoreSwitcher items={stores} />
                 <MainNav className="mx-6"/>
                 <div className="ml-auto flex items-center space-x-4">
