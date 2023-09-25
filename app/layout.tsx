@@ -9,8 +9,8 @@ import { ThemeProvider } from '@/providers/theme-provider'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Grocerease (Admin)',
-  description: 'Grocerease Admin Dashboard',
+  title: 'Grocstack (Admin)',
+  description: 'Grocstack Admin Dashboard',
 }
 
 export default function RootLayout({
